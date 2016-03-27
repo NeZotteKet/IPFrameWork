@@ -1,0 +1,431 @@
+/*  Mobile getest met : Apple iphone 5 , HTC ONE, Samsung Galaxy xy
+    Tablet getest met: Ipad Mini
+*/
+
+body {
+    background-color: white;
+}
+
+#wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main {
+    padding: 4%;
+}
+
+@media only screen and (max-width:800px) {
+    #wrapper {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #wrapper {
+        padding: 0% 0%;
+    }
+    main {
+        padding: 20px 0 0 0;
+    }
+}
+
+nav {
+    display: block;
+    width: 100%;
+    background-color: #3f3f3f;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    align-items: center;
+    letter-spacing: 0.15em;
+    font-size: 1.1em;
+    width: 15%;
+    height: inherit;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+}
+
+nav ul li a {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#selected {
+    background-color: rgb(142, 201, 61);
+}
+
+table th  {
+    background-color: rgb(142, 201, 61);
+    
+}
+table {
+    width: 100%;
+}
+
+table th {
+    
+    margin-bottom: 30px;
+}
+
+table tr td{
+    text-align: center;
+    
+}
+/* Facebook*/
+
+
+
+@media only screen and (max-width: 700px) {
+    .fb-like {
+        display: block;
+        margin-top: 2.5%;
+        margin-left: 4%;
+    }
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+/* Tablet menu */
+
+@media only screen and (max-width:800px) {
+    nav ul li {
+        width: 20%;
+    }
+}
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 700px) {
+    nav {
+        height: auto;
+        width: 100%;
+    }
+    nav ul {
+        padding-left: 0;
+        float: none;
+        display: block;
+    }
+    nav ul li {
+        width: 100%;
+        float: none;
+        clear: both;
+        padding-top: 0;
+        font-size: 1em;
+    }
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+}
+
+#logo h1 {
+    /*
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 400px;
+      float: left;
+        
+*/
+    height: 180px;
+    background-image: url(BierHeader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    #logo h1 {
+        padding: 0 1%;
+        width: 100%;
+        display: block;
+        background-image: url(BierHeader.jpg);
+    }
+}
+
+#logo {
+    width: 100%;
+}
+
+@media only screen and (max-width: 250px) {
+    #logo h1 {
+        background-image: url(../images/logo3-mini.jpg);
+        background-size: 100%;
+    }
+}
+
+main section {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 5px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 10%;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #3f3f3f;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(142, 201, 61);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h3{
+    background-color: rgb(142, 201, 61);
+    font-size:1.5em;
+    text-align: center;
+    margin-top:5%;
+    text-transform: uppercase;
+    color: #3f3f3f;
+}
+
+footer {
+    padding-top: 30px;
+    clear: both;
+    background-color: rgb(142, 201, 61);
+    height: 90px;
+}
+
+footer p {
+    text-align: center;
+    color: black;
+}
+
+
+/* contact */
+
+main section ul {
+    padding-top: 20px;
+    list-style-type: square;
+    padding-left: 10%;
+    background-color: white;
+    padding-bottom: 4%;
+}
+
+#info {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+}
+
+section ul li {
+    font-size: 1.3em;
+}
+
+form {
+    display:block;
+    clear: both;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 4px;
+    border: solid 1px #3f3f3f;
+}
+
+form p {
+    margin-left: 5%;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#bericht {
+    display: block;
+    margin-top: 5px;
+}
+
+p textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 2.5%;
+    margin-left: 86%;
+    padding: 1% 2%;
+    text-align: left;
+    background-color: rgb(142, 201, 61);
+    margin-bottom: 3%;
+}
+
+form label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    display: flex;
+}
+
+form input {
+    border-radius: 3%;
+}
+
+aside {
+    border-radius: 4px;
+    display: inline-block;
+    width: 48%;
+}
+
+@media only screen and (max-width: 700px) {
+    main section h2 {
+        height: auto;
+    }
+    main section {
+        margin-bottom: 2%;
+    }
+    aside {
+        width: 100%;
+    }
+    #info {
+        width: 100%;
+    }
+    input[type="submit"] {
+        margin-left: 70%;
+    }
+    form input[type="text"] {
+        width: 100%;
+    }
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.aanbod {
+    display: inline-block;
+    width: 49.2%;
+    background-color: white;
+    height: 330px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+.aanbod:nth-child(odd) {
+    margin-left: 1%;
+}
+
+.aanbod h2 {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.aanbod img {
+    height: 200px;
+    width: 100%;
+}
+
+.aanbod p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 1%;
+    text-align: center;
+}
+
+.pagetitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+
+/*Tablet Aanbod */
+
+@media only screen and (max-width: 700px) {
+    .aanbod {
+        display: block;
+        width: 100%;
+    }
+    .pagetitle {
+        width: 100%;
+    }
+    .aanbod:nth-child(odd) {
+        margin-left: 0%;
+    }
+}
+
+
+/* Mini versie samsung(2011) */
+
+@media only screen and (max-width: 245px) {
+    #info ul li {
+        font-size: 1em;
+    }
+}
+
+.nadruk {
+    font-weight: bold;
+}
+
+.overons img {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.overons img + p {
+    line-height: 1.3;
+    padding: 10px;
+    margin-left: 30%;
+}
+
+.overons {
+    margin-top: 15px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .overons img {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+    }
+    .overons img + p {
+        line-height: 1.3;
+        padding-top: 0px;
+        margin-left: 3%;
+    }
+    .overons {
+        margin-top: 15px;
+        background-color: white;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .pagetitle {
+        margin-top: 10px;
+    }
+}
+
+

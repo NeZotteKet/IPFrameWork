@@ -1,0 +1,17 @@
+  <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<header>
+        <div id="logo">
+            <h1>De BierKoning</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="<c:url value="/bier.htm"/>" />Bieren</a></li>
+                <li><a href="<c:url value="/categorie.htm"/>">Categorieën</a></li>
+                <li><a href="">Toevoegen</a></li>
+            </ul>
+            <a href="siteheader.jspf"></a>
+
+        </nav>
+
+    </header>
